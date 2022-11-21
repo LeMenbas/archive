@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="images/logo.svg" alt=""> </a>
+              <button class="navbar-toggler bg-light btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Bon Plan</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          blog 
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white " href="#">Contact</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="container gap-2">
+        <h1 class="text-center">What's news today</h1>
+        <p class="text-center">page 1</p>
+        <div class="row justify-content-center gap-3">
+            <article class="card m-0 col-sm-5 shadow p-0 mb-5 bg-body rounded" >
+                <img src="https://picsum.photos/320/180" class="card-img-top img-fluid" alt="...">
+                <div class="d-flex p-2 gap-3">
+                    <p><i class="bi bi-person-circle"></i> Rachid</p>
+                    <p><i class="bi bi-calendar2-event"></i> 27/10/2022</p>
+                    <p><i class="bi bi-brush"></i> factum</p>
+                </div>
+                <div class="card-body pt-0 ">
+                    <h2 class="card-title">Card title</h2>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <div class="d-flex justify-content-end mt-sm-4"><a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </article>
+            <article class="card p-0 col-sm-5 shadow  mb-5 bg-body rounded" >
+                <img src="https://picsum.photos/320/180" class="img-fluid" alt="...">
+                <div class="d-flex p-2 gap-3">
+                    <p><i class="bi bi-person-circle"></i> Benoit</p>
+                    <p><i class="bi bi-calendar2-event"></i> 22/10/2022</p>
+                    <p><i class="bi bi-brush"></i> factum</p>
+                </div>
+                <div class="card-body pt-0">
+                    <h2 class="card-title">Card title</h2>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <div class="d-flex justify-content-end mt-sm-4"><a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="row justify-content-center p gap-3">
+            <article class="card p-0 col-sm-5  shadow  mb-5 bg-body rounded" >
+                <img src="https://picsum.photos/320/180" class="card-img-top" alt="...">
+                <div class="d-flex p-2 gap-3">
+                    <p><i class="bi bi-person-circle"></i> Arnaud</p>
+                    <p><i class="bi bi-calendar2-event"></i> 20/10/2022</p>
+                    <p><i class="bi bi-brush"></i> factum</p>
+                </div>
+                <div class="card-body pt-0">
+                    <h2 class="card-title">Card title</h2>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <div class="d-flex justify-content-end mt-sm-4"><a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </article>
+            <article class="card p-0 col-sm-5 shadow mb-5 bg-body rounded" >
+                <img src="https://picsum.photos/320/180" class="card-img-top" alt="...">
+                <div class="d-flex p-2 gap-3">
+                    <p><i class="bi bi-person-circle"></i> Mélodie</p>
+                    <p><i class="bi bi-calendar2-event"></i> 17/10/2022</p>
+                    <p><i class="bi bi-brush"></i> factum</p>
+                </div>
+                <div class="card-body pt-0">
+                    <h2 class="card-title">Card title</h2>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <div class="d-flex justify-content-end mt-sm-4"><a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <nav class="text-center">
+            <a class="btn btn-dark" href="#">1</a>
+            <a class="btn btn-dark" href="#">2</a>
+            <a class="btn btn-dark" href="#">3</a>
+        </nav>
+        <br>
+    </main>
+    <br>
+    <div class="image-bg container-fluid">
+
+    </div>
+    <footer class="bg-black text-light m-0 ">
+        <div class="container">
+            <div class="row p-3">
+                <section class="col-md-4 border-start p-3">
+                    <h2>titre du footer</h2>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, cumque.</p>
+                </section>
+                <section class="col-md-4 border-start p-3">
+                    <h2>titre du footer</h2>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, cumque.</p>
+                </section>
+                <section class="col-md-4 border-start p-3">
+                    <h2>titre du footer</h2>
+                    <br>
+                   <div class="d-flex gap-1">
+                    <p><i class="bi bi-facebook p-2"></i></p>
+                    <p><i class="bi bi-github p-2"></i></p>
+                    <p><i class="bi bi-linkedin p-2"></i></p>
+                   </div>
+                   
+        
+
+                </section>
+            </div>
+        </div>
+        <br>
+        <p class="text-center pb-3 m-0">Copryright 2022, test bootstrap</p>
+    </footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+</html>

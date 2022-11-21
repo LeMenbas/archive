@@ -1,0 +1,185 @@
+/* feuille de style principzl */
+
+/* impotation feuille de style font  */
+/* import toujours en premier */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*  css par default */
+* {
+    box-sizing: border-box;
+    /* background-color: rgba(0,0,0,0.1);
+    border: 1px solid white; */
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+}
+
+img {
+    width: 100%;
+}
+
+/* CSS CUSTOM */
+
+/* to do régler le problème d'affichage de moins de 250px */
+
+a, button{
+    padding: 1rem;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+#loupe {
+    min-width: 20px;
+}
+
+#logo-link {
+    padding: 0;
+}
+
+.design {
+    min-height: 400px;
+    background-image: url(/images/bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+}
+
+header, main, footer {
+    padding: 1rem;
+}
+
+header, footer {
+    background-color: #222;
+    color: #fff;
+}
+
+nav a  {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1320px;
+    margin: auto;
+    min-height: calc(100vh - 90px); /* 50% minimum de la taille de l'écran */
+}
+
+article, section{
+    /* les flex (grow shrink et etc  */
+    /* width: 50%; */
+    /* flex: 1; */
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px; un mélange de max-widht et de min-height */
+    flex: 1 1 300px; /* largeur de référence */
+}
+
+article {
+    box-shadow: 0 0 15px rgb(0, 0, 0, 0.2);
+}
+
+footer section {
+    border-left: 2px solid white;
+    padding: 1rem;
+}
+
+footer > :last-child {
+    width: 100%;
+    text-align: center;
+}
+
+.pagination  a{
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px;
+    border-radius: 7px;
+    width: 48px;
+    aspect-ratio: 1 / 1;
+}
+
+section a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ANCHOR CONTAINER FLEX (parent) */
+
+.d-flex {
+    display: flex;
+}
+
+.fw-w {
+    flex-wrap: wrap;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.al-c {
+    align-items: center;
+}
+
+.g-1 {
+    gap: 1rem;
+}
+
+.g-2 {
+    gap: 2rem;
+}
+
+.my-2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Items flex (enfants) */
+
+/* spacing */
+
+
+.p-1 {
+    padding: 1rem;
+}
+
+/* TYPO */
+
+.txt-c {
+    text-align: center;
+}
+
+/* tp */
+
+.zone {
+    position: relative;
+}
+
+.info {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: beige;
+    color: black;
+    border-radius: 5px;
+}
+
+
+/* 16px est égal à 1em et 1rem */
+/* Ne pas se répetez */

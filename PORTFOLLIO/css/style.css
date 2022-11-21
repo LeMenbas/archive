@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid black;
+    background-color: gray; */
+}
+
+body {
+    margin: 0;
+    max-width: 1920px;
+}
+
+header {
+    background-color: aquamarine;
+}
+
+header div {
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+article > h2 {
+    font-size: 40px;
+}
+
+.txt-b {
+    font-weight: bold;
+}
+
+/* CSS CUSTOM */
+
+.bg-c {
+    background-color: #222;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+aside {
+    background-color: lightgrey;
+}
+
+#icon {
+    border-radius: 100px;
+    padding: 0;
+}
+
+
+/* CONTAINER FLEX (parent) */
+
+.d-flex {
+    display: flex;
+}
+
+.jc-fe {
+    justify-content: flex-end;
+}
+
+.fd-c {
+    flex-direction: column;
+}
+
+.fw-w {
+    flex-wrap: wrap;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.al-c {
+    align-items: center;
+}
+
+.ac-c {
+    align-content: center;
+}
+
+.a-link {
+    text-decoration: none;
+    color: white;
+    padding: 1rem
+}
+
+
+.f-360 {
+    flex: 1 1 360px;
+}
+
+
+.f-540 {
+    flex: 2 2 540px;
+}
+
+/* spacing */
+
+.p-left {
+    padding-left: 1rem;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.g-1 {
+    gap: 1rem;
+}
+
+/* TYPO */
+
+.txt-c {
+    text-align: center;
+}

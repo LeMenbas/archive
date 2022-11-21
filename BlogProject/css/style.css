@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+}
+
+  /* Haut de Page "header" */
+
+header {
+    min-height: 80px;
+    background-color:rgba(34, 34, 34, 1) ;
+
+}
+
+.lastHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.serch {
+    border-radius: 25px;
+    padding-left: 6px;
+}
+
+.serch1 {
+    width: 20px;
+    padding-left: 10px;
+    align-items: center;
+    align-content: center;
+}
+
+.linkHeader {
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+
+#mainHeader {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+  padding: 20px;
+  flex-wrap: wrap; 
+}
+
+header, main,div, footer {
+    max-width: 1920px
+}
+
+
+/* fin du Header */
+
+
+
+main {
+    flex-direction: column;
+    text-align: center;
+    max-width: 1920px ;
+    min-height: 960px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* flex-wrap: wrap; */
+    padding: 30px;
+  
+}
+
+main h1 {
+    /* padding-right: 120px; */
+    display: flex;
+    font-size:  50px;
+    color:rgba(34, 34, 34, 1) ;
+
+}
+
+.photo {
+    display: flex;
+    max-width: 100%;
+    min-height: 400px;
+    border-radius: 6px;
+}
+
+#mainPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    align-content: center;
+    align-self: center;
+    /* flex-wrap: wrap; */
+    text-align: center;
+    max-width: 1320px;
+    min-height: 700px;
+    /* border: 1px solid black; */
+    padding-top: 20px;
+    /* background-color: gray; */
+    /* flex-wrap: wrap-reverse; */
+}
+
+.lastDiv {
+    /* flex-wrap: wrap; */
+    max-width: 480px;
+    min-height: 300px;
+    border: 1px solid gray;
+    box-shadow: 3px 2px 2px gray;
+    border-radius: 5px;
+    align-items: center;
+    align-content: center;
+}
+
+
+ .linkmain {
+  color: white;
+    background-color: black;
+    border: 1px solid black;
+  
+    
+}
+.para {
+    padding: 20px;
+}
+
+#carre {
+    padding: 20px;
+}
+
+
+.linkmain {
+padding: 5px;
+text-decoration: none;
+
+}
+
+.photo {
+    width: 100%;
+    height: 150px;
+}
+
+#mainDiv {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+
+#SecondDiv {
+    display: flex;
+    justify-content:center;
+    gap: 25px;
+    flex-wrap: wrap;
+    }
+
+#acticle {
+text-align:start;
+justify-content: center;
+align-items: center;
+align-content: center;
+/* flex-wrap: wrap; */
+}
+
+.fondMain {
+    background-image: url(/images/bg.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+/* formulaire */
+
+fieldset {
+    padding: 100px;
+    max-width: 1320px;
+    text-align: center;
+    background-color: lightblue;
+
+    }
+
+form #formulaire { display: table;      }
+form p   #formulaire  { display: table-row;  }
+label #formulaire { display: table-cell; }
+input #formulaire { display: table-cell; }
+
+/* fin du formulaire */
+
+/* footer */
+
+.lastFooter {
+    border-left: 1px solid white;
+    padding: 30px;
+    padding-top: 5px;
+    /* padding-right: 2 px; */
+}
+
+h4 {
+    font-weight: bold;
+}
+
+footer img {
+    background-color: aliceblue;
+    padding: 0;
+    margin: 0;
+}
+
+#mainFooter {
+    display: flex;
+    justify-content: space-between;
+    
+    border-left: 1px solid white;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+footer {
+    min-height: 220px;
+    background-color:rgba(34, 34, 34, 1) ;
+    color: white;
+}
+
+#parfooter {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}

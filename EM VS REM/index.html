@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EM VS REM</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        main {
+            max-width: 900px;
+            margin: auto;
+            border: 2px solid rebeccapurple;
+            padding: 16px;
+        }
+        
+        .p-em {
+            font-size: 20px;
+        }
+        .p-em span {
+            font-size: 4em;
+        }
+
+        .p-rem {
+            font-size: 3rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: burlywood;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>EM VS REM</h1>
+        <p class="p-em">Lorem, ipsum dolor sit amet <span>mot1</span> adipisicing elit. Illo earum veritatis quidem voluptas iste, architecto,<span>mot2</span> perferendis nam labore veniam fuga quia, ad doloremque! Harum, perspiciatis temporibus rerum ducimus iusto a.</p>
+        <p class="p-rem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span>mot1</span>  Illo earum veritatis quidem voluptas iste, architecto, perferendis nam labore veniam fuga quia, ad doloremque! Harum, perspiciatis temporibus <span>mot1</span> rerum ducimus iusto a.</p>
+    </main>
+</body>
+</html>

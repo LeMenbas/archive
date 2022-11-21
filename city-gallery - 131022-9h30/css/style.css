@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* Héritage pour les propriétés de texte */
+}
+
+header,
+nav,
+main,
+footer {
+    padding: 16px;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+
+}
+
+header,
+footer {
+    background-color: #20b2aa;
+    text-align: center;
+    color: white;
+}
+/*
+nav,
+main {
+   min-height: 800px;
+    display: inline-block;
+    /* Attention inline-block white-space 4px*/
+    /* Vertical-align fonctionne que sur des éléments inline */
+    /* vertical-align: top; 
+} */
+
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* align-content: flex-start; */
+    /* padding: auto; */
+}
+
+
+
+.enfant {
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    /* margin: 8px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#centre {
+    display: flex;
+    /* flex-direction: row par default */
+    /* Justify-conten: flex-start, par default */
+    /* align-items: stretch; */
+    /* align-content: flex-start; */
+    flex-wrap: wrap;
+}
+
+nav {
+    background-color: #8fd8d5;
+    /* width: 30%;
+    min-width: 300px; */
+    flex: 1;
+}
+
+main {
+    background-color: #e9fbfa;
+    /* width: 70%;
+    min-width: 300px; */
+    flex: 2;
+}
+
+#titre-logo {
+    font-size: 45px;
+    margin: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    display: block;
+    padding: 16px;
+    color: white;
+}
+
+h1,h2 {
+    color: #20b2aa;
+}
+
+.nav-link:hover {
+    background-color: #20b2aa;
+}
+
+th,td {
+    border: 1px solid black;
+}
+
+#violet {
+    color: violet;
+}
+
+.rouge {
+    color: red;
+}
+
+.vert {
+    color: green;
+}
+
+.vert {
+    color: violet;
+}
+
+td {
+    color: orange;
+}
+
+.rouge.plus{
+    color: blue;
+}
+
+
+.plus {
+    color: green;
+}
+
+
+.brown {
+    color: brown;
+}
+
+.brown .plus {
+    color: pink;
+}
+
+[title="50"]{
+    color: red;
+}
+
+/*
+
+ * < balise < class < class + class < id < inline style 
+ 
+ */

@@ -1,0 +1,124 @@
+
+:root {
+    --color-white: #fff;
+    --color-primary: #222;
+}
+
+
+* {
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.1);
+    border: 1px solid white;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+}
+
+img, video {
+    width: 100%;
+}
+
+#logo-link {
+    padding: 0;
+}
+
+/* CSS CUSTOM */
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 1rem 0
+}
+
+
+a, button{
+    padding: 1rem;
+}
+
+article {
+    padding: 5px;
+}
+
+/* header, main, footer {
+    padding: 1rem;
+} */
+
+.mw {
+    max-width: 1320px;
+}
+
+/* .navheader {
+    width: 100vw;
+} */
+
+.navheader, footer {
+    background-color: var(--color-primary);
+    color: var(--color-white)
+}
+
+
+nav a  {
+    color: var(--color-white ) ;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.f-400 {
+    flex: 1 1 400px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.fw-w {
+    flex-wrap: wrap;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.al-c {
+    align-items: center;
+}
+
+.g-1 {
+    gap: 1rem;
+}
+
+.g-2 {
+    gap: 2rem;
+}
+
+.my-2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* ANCHOR BUTTON */
+
+.btn-light {
+    display: inline-block;
+    padding: 16px;
+    background-color: var(--color-white);
+    border: 2px solid transparent;
+    color: var(--color-primary);
+    border-radius: 15px;
+    margin-top: 16px;
+    transition: 0.5s;
+}
+
+.btn-light:hover {
+    background-color: transparent;
+    border: 2px solid var(--color-white);
+    color: var(--color-white);
+}
